@@ -9,18 +9,26 @@ body {
 
 .header, .footer {
     background-color: #1f2937;
+    flex: 3;
+}
+
+.footer {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
 
 .info {
-    flex: 1;
+    flex: 3;
 }
 
 .quote {
     background-color: #e5e7eb;
-    flex: 1;
+    flex: 3;
 }
 
 .action {
-    flex: 1;
+    flex: 3;
 }
